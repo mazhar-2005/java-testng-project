@@ -14,6 +14,7 @@ public class loadDataToDb extends sqlConnHelper
 {
   public static void main(String args []) throws Exception
    {
+        System.out.println("loadDataToDb begins!");
         connectDb();
         String dropTable = "DROP TABLE EmployeeInfo";
         String createTable="CREATE TABLE EmployeeInfo "+
